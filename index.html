@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP TO DO LIST</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<section class="container">
+    <article class="profile">
+        <div id="dateNow"></div>
+        <h1>Hola, Jander </h1>
+        <span>Vamos a cumplir tus metas</span>
+    </article>
+
+    <article class="add-task">
+        <input type="text" id="input" placeholder="Agrear una tarea">
+        <i id="btn-add"class="fas fa-plus-circle"></i>
+    </article>
+
+    
+    <article class="section-task">
+        <!-- <h3>Estas son tus Tareas Pendientes </h3> -->
+        <ul id="list">
+        </ul>
+    </article>   
+</section>
+<script src="index.js"></script>
+</body>
+</html>
